@@ -4,8 +4,79 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Garri Potter</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Harry Potter</h1>
+        <p class="header__subtitle">
+          View all characters from the Harry Potter universe
+        </p>
+        <form class="form">
+          <div class="form__placeholder">
+            <p class="form__p">Name</p>
+            <label for=""><input placeholder="Hermione" type="text" /></label>
+          </div>
+          <div class="form__select">
+            <p class="form__p">School</p>
+            <select>
+              <option value="">Choose one</option>
+              <option value="">School2</option>
+              <option value="">School3</option>
+            </select>
+          </div>
+        </form>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="wrapper__cards">
+          <div class="card">
+            <div class="card__image">
+              <img src="./images/img1.jpg" alt="" />
+            </div>
+            <div class="card__items">
+              <h3 class="card__items--h3">Hermione Granger</h3>
+              <p class="card__items--p">
+                Actor: Emma Watson<br />Gender: female<br />House: Gryffindor<br />Wand
+                core: dragon heartstring<br />Alive: yes
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__image">
+              <img src="./images/img2.jpg" alt="" />
+            </div>
+            <div class="card__items">
+              <h3 class="card__items--h3">Draco Malfoy</h3>
+              <p class="card__items--p">
+                Actor: Tom Felton<br />Gender: male<br />House: Slytherin<br />Wand
+                core: unicorn tail-hair<br />Alive: yes
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__image">
+              <img src="./images/img1.jpg" alt="" />
+            </div>
+            <div class="card__items">
+              <h3 class="card__items--h3">Hermione Granger</h3>
+              <p class="card__items--p">
+                Actor: Emma Watson<br />Gender: female<br />House: Gryffindor<br />Wand
+                core: dragon heartstring<br />Alive: yes
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
